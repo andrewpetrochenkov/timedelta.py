@@ -1,30 +1,21 @@
-[![](https://img.shields.io/pypi/pyversions/timedelta.svg?longCache=True)](https://pypi.org/pypi/timedelta/)
-[![](https://img.shields.io/pypi/v/timedelta.svg?maxAge=3600)](https://pypi.org/pypi/timedelta/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/timedelta.svg?longCache=True)](https://pypi.org/project/timedelta/)
+[![](https://img.shields.io/pypi/v/timedelta.svg?maxAge=3600)](https://pypi.org/project/timedelta/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/timedelta.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/timedelta.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install timedelta
 ```
 
 #### Classes
-
-###### `timedelta.Timedelta`
-
-datetime.timedelta replacement
-
-###### `timedelta.Total`
-
-method|description
+class|`__doc__`
 -|-
-`__init__(total_seconds)`|init from total seconds count
-
-@property|description
--|-
-`days`|return total days count
-`hours`|return total hours count
-`minutes`|return total minutes count
-`seconds`|return total seconds count
+`timedelta.Timedelta` |datetime.timedelta replacement
+`timedelta.Total` |
 
 #### Examples
 ```python
@@ -52,4 +43,6 @@ method|description
 #### Links
 + [timedelta Objects](https://docs.python.org/3/library/datetime.html#timedelta-objects)
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
