@@ -1,22 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/timedelta.svg?longCache=True)](https://pypi.org/project/timedelta/)
-[![](https://img.shields.io/pypi/v/timedelta.svg?maxAge=3600)](https://pypi.org/project/timedelta/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/timedelta.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/timedelta.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/timedelta.svg?maxAge=3600)](https://pypi.org/project/timedelta/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/timedelta.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/timedelta.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install timedelta
 ```
-
-#### Classes
-class|`__doc__`
--|-
-`timedelta.Timedelta` |datetime.timedelta replacement
-`timedelta.Total` |
 
 #### Examples
 ```python
@@ -45,5 +39,5 @@ class|`__doc__`
 + [timedelta Objects](https://docs.python.org/3/library/datetime.html#timedelta-objects)
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

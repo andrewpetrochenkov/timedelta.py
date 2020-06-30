@@ -1,12 +1,13 @@
-#!/usr/bin/env python
+__all__ = ["Total", "Timedelta"]
+
+
 import datetime
-import public
 
 """
 https://docs.python.org/3/library/datetime.html#timedelta-objects
 """
 
-@public.add
+
 class Total:
     __readme__ = ["__init__", "seconds", "minutes", "hours",  "days"]
     total_seconds = None
@@ -36,9 +37,9 @@ class Total:
         return int(self.hours / 24)
 
 
-@public.add
 class Timedelta(datetime.timedelta):
     """datetime.timedelta replacement"""
+
     def __new__(self, *args, **kwargs):
         if args:
             kwargs["seconds"] = args[0].total_seconds()
